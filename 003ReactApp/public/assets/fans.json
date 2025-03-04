@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name":"Eliud",
+        "surname":"Musenge",
+        "email":"menintel@gmail.com",
+        "phone":"0977905651"
+    },{
+        "id":2,
+        "name":"Nchima",
+        "surname":"Musenge",
+        "email":"menintel2@gmail.com",
+        "phone":"0976905651"
+    },{
+        "id":3,
+        "name":"Samuel",
+        "surname":"Banda",
+        "email":"sbanda@gmail.com",
+        "phone":"0978905651"
+    }
+]
