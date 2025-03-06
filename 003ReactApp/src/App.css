@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.search1 {
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px;
+  text-align: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -7,7 +7,8 @@ class App extends Component {
     super();
     this.state = {
       subscribers : [],
-      leaders : []
+      leaders : [],
+      searchFiled : ''
     }
   }
 
@@ -25,7 +26,9 @@ class App extends Component {
     return(
       <>
 
-         <div className='App'> 
+         <div className='App'>
+          <input className='search1' type='search' placeholder='Search' 
+          onChange={e => this.setState({searchFiled : e.target.value})}/> 
           <CardList subscribers = {this.state.subscribers}/>
         </div>
         <div className='App'>
